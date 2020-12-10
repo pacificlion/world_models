@@ -53,7 +53,7 @@ setuptools.setup(
         "tensorflow-probability==0.7",
         "gym",
         "dm_control",
-        "mujoco-py==2.0.2.8",
+        "mujoco-py<2.1,>=2.0",
     ],
     python_requires="<3.8",
 )
